@@ -1,0 +1,85 @@
+1) For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+Ans var jsonObject = {
+        name: 'Elavarasan',
+        Age: '25'
+    };
+
+for (var prop in jsonObject) {
+  console.log("Key:" + prop);
+  console.log("Value:" + jsonObject[prop]);
+}
+
+const iterable = [10, 20, 30];
+
+for (const value of iterable) {
+  console.log(value);
+}
+
+let sum = 0;
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  sum += item;
+}
+
+JSON Resume DATA
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "Elavarasan",
+    "familyname": "Kalaiselvan",
+    "github_id": "elavarasankalaiselvan",
+    "bio_data": {
+        "email": "elavarasankalaiselvan555@gmail.com",
+        "phone": "9025296646",
+ "summary": {
+		"points":[
+		"Hard worker, quick learner, and Responsible"
+		]
+	},
+        "education": {
+	    "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "Bachelor of Engineering ",
+                    "major": "Electrical and Electronics Engineering",
+                    "institution": "Anna University",
+                    "graduation_year": 2023,
+                 
+                }
+            ]
+        },
+       
+      
+                {
+                    "title": "Full Stack Developer",
+                    "organisation": "Guvi",
+		                "location": "India",
+                    "from": "March 2023",
+                    "to": "August 2023",
+                    "details": [
+                        "Worked on several live projects.Developed and Improved features for the same",
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "MERN Stack",
+                            "Next JS",
+                            "MySQL",
+                            "NoSQL"
+                        ]
+                    }
+                }
+            
+        }
+
+
+
+
+
+
+
+
+  
